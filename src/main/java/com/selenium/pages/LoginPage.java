@@ -43,7 +43,7 @@ public void typeUserName(String name)
   
   public void clickOnCheckBox(boolean check)
   {
-      if(check && !keepMeLoggedInCheckBox.isSelected())	 //asume if check is true
+      if(check && !keepMeLoggedInCheckBox.isSelected())	 //assume if check is true
     	keepMeLoggedInCheckBox.click();
     else if(!check && keepMeLoggedInCheckBox.isSelected()) //assume not check
     	keepMeLoggedInCheckBox.click();
